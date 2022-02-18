@@ -19,6 +19,7 @@
 .u-section-1 .u-text-1 {
   text-transform: uppercase;
   letter-spacing: 1px;
+  font-family: Fahkwang;
   margin: 90px auto 0 0;
 }
 
@@ -35,6 +36,10 @@
   margin: 28px 0 0;
 }
 
+.u-section-1 .u-icon-1 {
+  font-size: 1.55em;
+}
+
 .u-section-1 .u-text-4 {
   text-transform: none;
   font-size: 2.25rem;
@@ -45,14 +50,10 @@
 .u-section-1 .u-social-icons-1 {
   height: 31px;
   min-height: 16px;
-  width: 154px;
-  min-width: 94px;
+  width: 195px;
+  min-width: 120px;
   white-space: nowrap;
   margin: 28px auto 0 0;
-}
-
-.u-section-1 .u-icon-1 {
-  height: 100%;
 }
 
 .u-section-1 .u-icon-2 {
@@ -67,8 +68,17 @@
   height: 100%;
 }
 
+.u-section-1 .u-icon-5 {
+  height: 100%;
+}
+
+.u-section-1 .u-icon-6 {
+  height: 100%;
+}
+
 .u-section-1 .u-text-5 {
   font-size: 1.25rem;
+  background-image: none;
   margin: 37px 0 0;
 }
 
@@ -160,7 +170,6 @@
   }
 
   .u-section-1 .u-text-5 {
-    font-size: 1.125rem;
     width: auto;
   }
 

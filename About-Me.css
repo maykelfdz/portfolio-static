@@ -5,8 +5,8 @@
 .u-section-1 .u-text-1 {
   width: 525px;
   text-transform: none;
-  font-family: Montserrat, sans-serif;
   font-size: 4.5rem;
+  font-family: Fahkwang;
   margin: 20px auto 0;
 }
 
@@ -29,9 +29,9 @@
 }
 
 .u-section-1 .u-text-3 {
-  font-family: Allerta;
   font-weight: 700;
   margin: 0;
+  font-family: 'Aclonica', Allerta;
 }
 
 .u-section-1 .u-text-4 {
@@ -48,9 +48,9 @@
 }
 
 .u-section-1 .u-text-5 {
-  font-family: Allerta;
   font-weight: 700;
   margin: 0;
+  font-family: 'Aclonica', sans-serif;
 }
 
 .u-section-1 .u-text-6 {
@@ -125,8 +125,16 @@
     min-height: 391px;
   }
 
+  .u-section-1 .u-text-3 {
+    font-family: 'Aclonica', sans-serif;
+  }
+
   .u-section-1 .u-layout-cell-2 {
     min-height: 391px;
+  }
+
+  .u-section-1 .u-text-5 {
+    font-family: 'Aclonica', sans-serif;
   }
 
   .u-section-1 .u-layout-cell-3 {
