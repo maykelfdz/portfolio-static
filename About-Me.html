@@ -102,15 +102,17 @@
               <div class="u-align-center-sm u-align-center-xs u-align-left-lg u-align-left-md u-align-left-xl u-container-style u-layout-cell u-size-20 u-layout-cell-1" data-animation-name="fadeIn" data-animation-duration="1250" data-animation-direction="Down">
                 <div class="u-container-layout u-container-layout-1">
                   <h4 class="u-text u-text-custom-color-2 u-text-3">Details</h4>
-                  <p class="u-text u-text-4">
+                  <div class="u-text u-text-4">
                     <span style="font-weight: 700;">Name: </span>
-                    <br>Maikel Fernandez<br>
+                    <br>Maikel Fernandez
+                    <br>
                     <span style="font-weight: 700;">Age: </span>
-                    <br>32 years <span style="font-weight: 700;">
-                      <br>Location: 
+                    <p class="u-text" style="margin-top: 0; margin-bottom: 0" id="edad">30 years </p>
+                    <!-- <br> -->
+                    <span style="font-weight: 700;">Location: 
                     </span>
                     <br>Alicante, Spain
-                  </p>
+                  </div>
                 </div>
               </div>
               <div class="u-align-center-sm u-align-center-xs u-container-style u-layout-cell u-size-22 u-layout-cell-2" data-animation-name="fadeIn" data-animation-duration="1750" data-animation-direction="Up">
@@ -180,6 +182,13 @@
         <p class="u-small-text u-text u-text-default u-text-variant u-text-1"> Copyright © 2012 | ING. Maikel Fernandez<br>ES - Alicante
         </p>
       </div>
-    </div></footer>
+    </div>
+    <script type="text/javascript">
+      const nac = 1989;
+      let yearActual = new Date().getFullYear();
+      let edad = yearActual - nac;
+      document.getElementById("edad").innerHTML = edad + " years"
+    </script>
+  </footer>
   </body>
 </html>
