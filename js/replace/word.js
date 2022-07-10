@@ -4,13 +4,20 @@ var words = ['DEVELOPER', 'BACKEND'],
     addingWord = false,
     counter = 1;
 
-setTimeout(runEscribir,2500);    
+// setTimeout(runEscribir,2500);    
 
-function runEscribir(){
-setInterval(escribir, 230);
-};
+// function runEscribir(){
+// setInterval(escribir, 230);
+// };
+//
+window.setInterval(escribir, 230);
 
-function escribir(){  
+function escribir(){ 
+  
+  // while(!wordWrapperContent === "DEVELOPER"){
+  //   escribir();
+  // }
+  
   if(wordWrapperContent.length > 0 && !addingWord ) {
     wordWrapper.innerHTML = wordWrapperContent.slice(0, -1);
     wordWrapperContent = wordWrapper.innerHTML;
