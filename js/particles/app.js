@@ -1,7 +1,3 @@
-/* particlesJS.load('particles-js', 'js/particles/particlesjs-config.json', function() {
-    console.log('callback - particles.js config loaded');
-  }); */
-/*  particlesJS.load(@dom-id, @path-json, @callback (optional));  */
 particlesJS(
     {
         "particles": {
@@ -53,7 +49,7 @@ particlesJS(
           "line_linked": {
             "enable": true,
             "distance": 150,
-            "color": "#333333",
+            "color": "#393939",
             "opacity": 0.4,
             "width": 1
           },
