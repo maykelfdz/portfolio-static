@@ -91,14 +91,14 @@ h2 {
   color: #fff;
   background: linear-gradient(
     45deg,
-    rgba(0, 0, 0, 0.762),
     rgb(254, 0, 0),
+    #ef00ff,
     rgb(22, 22, 146),
     black
   );
-  background-size: 400% 900%;
+  background-size: 400% 1000%;
   position: relative;
-  animation: cambiar 15s ease-in-out infinite;
+  animation: cambiar 10s ease-in-out infinite;
 }
 
 @keyframes cambiar {
@@ -257,11 +257,14 @@ p:not(.u-text-variant) {
     padding: 10px;
     display: grid;
     gap: 2px;
-    grid-template-columns: 1fr 160px;
+    grid-template-columns: 1fr 200px;
     grid-template-rows: 1fr;
     grid-template-areas:
+      "profile skill"
+      "content content";
+    /* grid-template-areas:
       "profile profile"
-      "content skill";
+      "content skill"; */
   }
   .m-contact {
     display: flex;
@@ -290,10 +293,10 @@ p:not(.u-text-variant) {
   }
   .color_gradient {
     background: linear-gradient(
-      75deg,
-      rgba(0, 0, 0, 0.762),
+      85deg,
       rgb(254, 0, 0),
-      rgb(22, 22, 146),
+      rgb(41, 41, 139),
+      #ef00ff,
       black
     );
     background-size: 400% 2500%;
@@ -341,13 +344,13 @@ p:not(.u-text-variant) {
   .color_gradient {
     background: linear-gradient(
       90deg,
-      rgba(0, 0, 0, 0.762),
       rgb(254, 0, 0),
-      rgb(22, 22, 146),
+      rgb(41, 41, 139),
+      #ef00ff,
       black
     );
     background-size: 400% 4500%;
-    animation: cambiar 8s ease-in-out infinite;
+    animation: cambiar 10s ease-in-out infinite;
   }
 }
 
